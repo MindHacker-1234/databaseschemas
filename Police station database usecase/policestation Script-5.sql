@@ -172,3 +172,8 @@ insert into crimeincident values(4,4,4,4,'2020-12-10','hitech city')
 
 insert into crimeincident values(5,5,5,5,'2017-11-20','madhapur')
 
+alter table station add unique key(stationphonenumber);
+
+alter table station add unique key(address);
+
+alter table police add unique key(policephone);
